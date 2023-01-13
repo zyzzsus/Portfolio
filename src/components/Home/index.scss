@@ -1,0 +1,25 @@
+$primary-clr: #CC4242;
+div{
+    .home{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 800px;
+        height: 800 px;
+    }
+    p{
+        color: $primary-clr;
+        position: absolute;
+        top: 870px;
+        left: 870px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 121.7%;
+        letter-spacing: 0.245em;
+        text-transform: uppercase;
+
+    }
+}
